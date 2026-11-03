@@ -1,0 +1,23 @@
+{
+  "name": "pulse-sharechat",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Pulse — content & creator intelligence analytics demo (ShareChat-style, synthetic data)",
+  "scripts": {
+    "generate-data": "node scripts/generate.mjs",
+    "dev": "vite",
+    "build": "npm run generate-data && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "recharts": "^2.10.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.4.0"
+  }
+}
