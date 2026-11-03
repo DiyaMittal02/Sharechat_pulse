@@ -2,6 +2,8 @@
 
 A content & creator **analytics platform demo** for a ShareChat-style multi-language social feed. Built as a Product Analyst portfolio project: it shows how I define metrics, build fair benchmarks, measure a funnel, and turn dashboards into decisions.
 
+### ▶ [Live demo → sharechatpulse.vercel.app](https://sharechatpulse.vercel.app/)
+
 > **Fully synthetic data**, generated with a seeded RNG — *not* real ShareChat data. Modeled on an internal content-intelligence tool (Scout) and re-framed for ShareChat's product world (regional-language feed, creators, moderation at scale).
 
 **[→ Analyst findings (INSIGHTS.md)](./INSIGHTS.md) · [the SQL (analyses.sql)](./analyses.sql) · [Product Teardown (TEARDOWN.md)](./TEARDOWN.md)**
